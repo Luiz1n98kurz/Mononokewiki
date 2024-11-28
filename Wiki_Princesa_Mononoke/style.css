@@ -1,0 +1,84 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.img-poster{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.poster{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 1.1rem;
+    color: whitesmoke;
+}
+
+.enredo h1{
+    text-align: center;
+}
+
+body{
+    background-color: #13181E;
+}
+
+.card-grupo{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.3rem;
+}
+
+#links a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.4s;
+
+}
+
+#links a:hover {
+    color: black;
+}
+
+button{
+    position: absolute;
+    top: 93%;
+    left: 50% ;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    position: absolute;
+    top: 93%;
+    left: 50% ;
+    transform: translate(-50%, -50%);
+}
+
+.card-img-top{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Jiko-bo{
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+}
+
+#San{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
